@@ -1,0 +1,21 @@
+{% extends "globalHub/layout.html" %} 
+{% load static %}
+
+{% block css %}
+  <link rel="stylesheet" href="{% static 'globalHub/about.css' %}" />
+{% endblock css %}
+
+{% block body %}
+  <div id="about">
+    <div class="title">
+      <span>Global<span>Hub</span></span>
+    </div>
+    <p>
+      {{content}}
+    </p>
+  </div>
+{% endblock body %}
+
+
+
+
